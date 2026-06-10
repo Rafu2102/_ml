@@ -63,7 +63,7 @@ class SimpleNet:
 # ==========================================
 def main():
     # 設定隨機種子以確保結果可重現
-    random.seed(42)
+    random.seed(1)
     
     # 建立數據與模型
     train_data = generate_data(120)
